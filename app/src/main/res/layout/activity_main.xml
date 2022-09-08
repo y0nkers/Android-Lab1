@@ -13,7 +13,6 @@
 
         android:text="Частота дискретизации (Гц):"
         android:textSize="16sp"
-        android:inputType="number"
 
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -23,6 +22,9 @@
         android:id="@+id/frequencyInput"
         android:layout_width="0dp"
         android:layout_height="40dp"
+
+        android:inputType="number"
+
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frequencyLabel" />
@@ -34,7 +36,6 @@
 
         android:text="Глубина кодирования (бит):"
         android:textSize="16sp"
-        android:inputType="number"
 
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -44,6 +45,9 @@
         android:id="@+id/depthInput"
         android:layout_width="0dp"
         android:layout_height="40dp"
+
+        android:inputType="number"
+
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/depthLabel" />
@@ -55,7 +59,6 @@
 
         android:text="Время записи (с):"
         android:textSize="16sp"
-        android:inputType="number"
 
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -65,6 +68,9 @@
         android:id="@+id/timeInput"
         android:layout_width="0dp"
         android:layout_height="40dp"
+
+        android:inputType="number"
+
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/timeLabel" />
@@ -76,7 +82,6 @@
 
         android:text="Количество каналов:"
         android:textSize="16sp"
-        android:inputType="number"
 
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -86,6 +91,9 @@
         android:id="@+id/channelInput"
         android:layout_width="0dp"
         android:layout_height="40dp"
+
+        android:inputType="number"
+
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/channelLabel" />
@@ -111,7 +119,6 @@
 
         android:text="Объём аудиофайла равен "
         android:textSize="16sp"
-        android:inputType="number"
 
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

@@ -44,7 +44,8 @@ public class MainActivity extends AppCompatActivity {
                     }
                     else {
                         Double result = frequency * depth * time * channels * 1.0;
-                        textView.setText("Объём аудиофайла равен " + frequency/8 + " байт.");
+                        int bytes = (int) (result / 8.0);
+                        textView.setText("Объём аудиофайла равен " + bytes + " байт.");
                     }
                 } catch(Exception e) {
                     Toast.makeText(getApplicationContext(), "Введены некорректные данные", Toast.LENGTH_LONG).show();
